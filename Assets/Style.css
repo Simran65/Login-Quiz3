@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    margin-right: 10%;
+    
+    margin-left: 10%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.row {
+    height: 100%;
+}
+
+.left-bg {
+    background: url('your-image.jpg') center/cover no-repeat; /* Add your image here */
+    padding: 0;
+}
+
+.right-bg {
+    background-color: white;
+    padding: 20px;
+}
+
+.login-form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the div takes up the full height */
+  
+}
+
+.login-form h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.social-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the div takes up the full height */
+}
+
+.btn-linkedin, .btn-twitter, .btn-facebook {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.left {
+    background-image: url('/Assets/Img/Bg.PNG'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-position: center; /* Centers the background image */
+}
+.logo{
+    font-family: cassadio;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 123px;
+height: 62.3px;
+top: 23px;
+left: 45px;
+color: #FFFDFD;
+
+
+}

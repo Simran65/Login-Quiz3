@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/Assets/Style.css">
+    <!-- Link Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Left Portion with Background Image -->
+            <div class="col-md-6 left-bg left">
+                <div class="logo">
+                    <p  class="logo" style=" font-style: italic">Pisocial</p>
+                </div>
+                <div class="social-signup" style="align-items: center;">
+                    <button class="btn" style="background-color: white;">Sign up with LinkedIn</button>
+                    <button class="btn" style="background-color: white;">Sign up with Twitter</button>
+                    <button class="btn" style="background-color: white;">Sign up with Facebook</button>
+                </div>
+            </div>
+
+            <!-- Right Portion with Login Form -->
+            <div class="col-md-6 right-bg">
+                <div class="login-form  mx-auto">
+                    <h2 style="text-align: center">Sign Up</h2>
+                    <h3 style="text-align: center">Get started absolutely free</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" class="form-control" placeholder="Enter your password">
+                        </div>
+                        <div class="form-group">
+                            <label for="terms">
+                                <input type="checkbox" id="terms" name="terms"> Creating an account means you’re okay with our Terms of Service, Privacy Policy, and default Notification Settings
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign Up</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Link Bootstrap JS and jQuery (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
